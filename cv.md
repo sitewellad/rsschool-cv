@@ -49,6 +49,6 @@ A self-motivated and ambitious individual with strong analytical skills, have a 
 ### Experience
 Worked as a Junior Front-end web developer. Also as a Chief Technology Officer in my own web-company.
 ### Education
-Graduated from NIZHNY NOVGOROD STATE UNIVERSITY OF ARCHITECTURE AND CIVIL ENGINEERING (NNGASU) with a degree in economics and computer science.
+Graduated from NIZHNIY NOVGOROD STATE UNIVERSITY OF ARCHITECTURE AND CIVIL ENGINEERING (NNGASU) with a degree in economics and computer science.
 ### Language skills
 English level - Upper-intermediate B2. Practiced language in English-speaking countries, have several certificates from language schools (like English First).
