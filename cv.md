@@ -2,7 +2,7 @@
 ### Contacts
 sitewellad@gmail.com
 ### Summary 
-A self-motivated and ambitious individual with strong analytical skills, have a desire to work as a junior front-end Web Developer. I would like to improve my hard skills and seeking opportunities to join a company that can help me in strengthening my knowledge and realising my potential. Coming with 3years experience in web development.
+A self-motivated and ambitious individual with strong analytical skills, have a desire to work as a junior front-end Web Developer. I would like to improve my hard skills and seeking opportunities to join a company that can help me in strengthening my knowledge and realising my potential. Coming with 3-years experience in web development.
 ### Skills
 - HTML
 - CSS/SCSS
