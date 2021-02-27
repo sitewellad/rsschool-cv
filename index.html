@@ -1,87 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Nik Lagudin - CV</title>
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="mystyle.css" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
   </head>
   <body>
     <header>
       <figure>
-  <img src="https://i.postimg.cc/kMxbPyqR/person-avatar.jpg" alt="Nik Lagudin">
-  <figcaption><h2>Nik Lagudin</h2></figcaption>
-</figure>
-      </header>
+        <img
+          class="header-img"
+          src="https://i.postimg.cc/kMxbPyqR/person-avatar.jpg"
+          alt="Nik Lagudin"
+        />
+        <figcaption><h2 class="header-name">Nik Lagudin</h2></figcaption>
+      </figure>
+    </header>
     <main class="container">
-    <section>
-    <h3>Contacts</h3>
-      <p><a href="mailto:sitewellad@gmail.com">sitewellad@gmail.com</a></p>
+      <section class="text-section">
+        <h3 class="text-section__header">Contacts</h3>
+        <p class="text-section__content">
+          <a href="mailto:sitewellad@gmail.com">sitewellad@gmail.com</a>
+        </p>
       </section>
-      <section>
-      <h3>Summary</h3>
-      <p>A self-motivated and ambitious individual with strong analytical skills, have a desire to work as a junior front-end Web Developer. I would like to improve my hard skills and seeking opportunities to join a company that can help me in strengthening my knowledge and realising my potential. Coming with 3-years experience in web development.</p>
+      <section class="text-section">
+        <h3 class="text-section__header">Summary</h3>
+        <p class="text-section__content">
+          A self-motivated and ambitious individual with strong analytical
+          skills, have a desire to work as a junior front-end Web Developer. I
+          would like to improve my hard skills and seeking opportunities to join
+          a company that can help me in strengthening my knowledge and realising
+          my potential. Coming with 3-years experience in web development.
+        </p>
       </section>
-        <section>
-        <h3>Skills</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS/SCSS</li>
-        <li>Bootstrap</li>
-        <li>Git</li>
-        <li>JavaScript</li>
-        <li>Photoshop</li>
-      </ul>
+      <section class="text-section">
+        <h3 class="text-section__header">Skills</h3>
+        <ul class="text-section__list">
+          <li>HTML</li>
+          <li>CSS/SCSS</li>
+          <li>Bootstrap</li>
+          <li>Git</li>
+          <li>JavaScript</li>
+          <li>Photoshop</li>
+        </ul>
       </section>
-        <section>
-        <h3>Example of SCSS code:</h3>
-      <pre>
+      <section class="text-section">
+        <h3 class="text-section__header">Example of SCSS code:</h3>
+        <pre class="text-section__code">
   <code>
     .section-about {
-  background-color: $color-gray-light-1;
-  padding: 25rem 0;
-  margin-top: -20vh;
-
-  @include respond(tablet-port) {
-    padding: 20rem 0;
-  }
-}
-
-.section-features {
-  padding: 20rem 0;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)
-    ),
-    url(../img/nat-4.jpg);
-  background-size: cover;
-
-  transform: skewY(-7deg);
-  margin-top: -10rem;
-
-  & > * {
-    transform: skewY(7deg);
-  }
-
-  @include respond(tablet-port) {
-    padding: 10rem 0;
-  }
-}
+      background-color: $color-gray-light-1;
+      padding: 25rem 0;
+      margin-top: -20vh;
+    
+      @include respond(tablet-port) {
+        padding: 20rem 0;
+      }
+    }
+    
+    .section-features {
+      padding: 20rem 0;
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-primary-light, 0.8),
+          rgba($color-primary-dark, 0.8)
+        ),
+        url(../img/nat-4.jpg);
+      background-size: cover;
+    
+      transform: skewY(-7deg);
+      margin-top: -10rem;
+    
+      & > * {
+        transform: skewY(7deg);
+      }
+    
+      @include respond(tablet-port) {
+        padding: 10rem 0;
+      }
+    }
   </code>
 </pre>
-          </section>
-      <section>
-          <h3>Experience</h3>
-      <p>Worked as a Junior Front-end web developer. Also as a Chief Technology Officer in my own web-company.</p>
       </section>
-        <section>
-        <h3>Education</h3>
-      <p>Graduated from NIZHNIY NOVGOROD STATE UNIVERSITY OF ARCHITECTURE AND CIVIL ENGINEERING (NNGASU) with a degree in economics and computer science.</p>
-    </section>  
-          <section>
-          <h3>Language skills</h3>
-      <p>English level - Upper-intermediate B2. Practiced language in English-speaking countries, have several certificates from language schools (like English First).</p>
-    </section>
-          </main>
+      <section class="text-section">
+        <h3 class="text-section__header">Experience</h3>
+        <p class="text-section__content">
+          Worked as a Junior Front-end web developer. Also as a Chief Technology
+          Officer in my own web-company.
+        </p>
+      </section>
+      <section class="text-section">
+        <h3 class="text-section__header">Education</h3>
+        <p class="text-section__content">
+          Graduated from NIZHNIY NOVGOROD STATE UNIVERSITY OF ARCHITECTURE AND
+          CIVIL ENGINEERING (NNGASU) with a degree in economics and computer
+          science.
+        </p>
+      </section>
+      <section class="text-section">
+        <h3 class="text-section__header">Language skills</h3>
+        <p class="text-section__content">
+          English level - Upper-intermediate B2. Practiced language in
+          English-speaking countries, have several certificates from language
+          schools (like English First).
+        </p>
+      </section>
+    </main>
   </body>
 </html>
