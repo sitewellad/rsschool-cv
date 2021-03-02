@@ -53,12 +53,28 @@ header {
   font-size: 3rem;
 }
 
+.header-name-1 {
+  font-size: 4rem;
+}
+
 .text-section {
   margin: 3rem 0;
 }
 .text-section__header {
   font-size: 3rem;
   padding-bottom: 1.5rem;
+}
+
+.text-section__header-3 {
+  font-size: 2.1rem;
+}
+
+.text-section__header-4 {
+  font-size: 1.9rem;
+}
+
+.text-section__header-5 {
+  font-size: 1.7rem;
 }
 
 .text-section__code {
@@ -77,4 +93,12 @@ header {
 .text-section__list li {
   list-style: disc;
   padding-left: 1rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  width: 15rem;
 }
